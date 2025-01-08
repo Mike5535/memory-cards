@@ -11,19 +11,19 @@ export class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('bg', 'src/assets/sprites/background.png')
-    this.load.image('card', 'src/assets/sprites/card.png')
-    this.load.image('card1', 'src/assets/sprites/card1.png')
-    this.load.image('card2', 'src/assets/sprites/card2.png')
-    this.load.image('card3', 'src/assets/sprites/card3.png')
-    this.load.image('card4', 'src/assets/sprites/card4.png')
-    this.load.image('card5', 'src/assets/sprites/card5.png')
+    this.load.image('bg', 'assets/sprites/background.png')
+    this.load.image('card', 'assets/sprites/card.png')
+    this.load.image('card1', 'assets/sprites/card1.png')
+    this.load.image('card2', 'assets/sprites/card2.png')
+    this.load.image('card3', 'assets/sprites/card3.png')
+    this.load.image('card4', 'assets/sprites/card4.png')
+    this.load.image('card5', 'assets/sprites/card5.png')
 
-    this.load.audio('card', 'src/assets/sounds/card.mp3')
-    this.load.audio('complete', 'src/assets/sounds/complete.mp3')
-    this.load.audio('success', 'src/assets/sounds/success.mp3')
-    this.load.audio('theme', 'src/assets/sounds/theme.mp3')
-    this.load.audio('timeout', 'src/assets/sounds/timeout.mp3')
+    this.load.audio('card', 'assets/sounds/card.mp3')
+    this.load.audio('complete', 'assets/sounds/complete.mp3')
+    this.load.audio('success', 'assets/sounds/success.mp3')
+    this.load.audio('theme', 'assets/sounds/theme.mp3')
+    this.load.audio('timeout', 'assets/sounds/timeout.mp3')
   }
 
   createText() {
