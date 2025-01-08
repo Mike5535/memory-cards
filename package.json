@@ -12,6 +12,7 @@
     "phaser": "^3.87.0"
   },
   "devDependencies": {
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "vite-plugin-static-copy": "^2.2.0"
   }
 }
